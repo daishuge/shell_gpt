@@ -14,7 +14,7 @@
 pip install openai
 ```
 
-## 2：加入环境变量
+## 2：准备
 
 - 把 `gpt.py` 的代码复制到任意位置的 `gpt` 中
 - 编辑 `.bashrc` 或 `.profile` 文件, 加入 `export PATH="$PATH:<脚本所在目录>"`
