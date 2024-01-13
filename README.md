@@ -16,8 +16,8 @@ pip install openai
 
 ## 2：加入环境变量
 
-- 首先，需要知道gpt的完整路径。假设位于 /home/daishuge 目录下，那么它的完整路径就是 /home/daishuge/gpt。
-- 编辑 .bashrc 或 .profile 文件, 加入 `export PATH="$PATH:<脚本所在目录>"`
+- 把 `gpt.py` 的代码复制到任意位置的 `gpt` 中
+- 编辑 `.bashrc` 或 `.profile` 文件, 加入 `export PATH="$PATH:<脚本所在目录>"`
 - 应用更改 `source ~/.bashrc`
 
 ## 3:赋予执行权限
@@ -35,5 +35,9 @@ chmod +X /path/to/gpt
 ```shell
 gpt write a hello world py cpp and run it
 ```
+
+
+
+
 
 # 正在开发终端记录给gpt的功能···
